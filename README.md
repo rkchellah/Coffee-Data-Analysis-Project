@@ -69,7 +69,8 @@ In the screenshot below, I initially forgot to include the Size column but later
 ### Data Analysis
 - For my data analysis, I used Pivot Tables with Power Pivot. After clicking on Pivot Tables, a new sheet was generated. On this sheet, I saw three tables in the Pivot Table Fields: Orders, Customers, and Products. I focused on the Orders table since it contained all the relevant information I needed. I followed a similar process to Mo. I utilized Pivot Tables and Pivot Charts. I created a dashboard in the same style as Mo’s, but with a different theme.
   
-![Screenshot 2024-11-17 050340](https://github.com/user-attachments/assets/ae12228f-c426-4efd-ab20-68c958894db8)
+![Coffee Dashboard](https://github.com/user-attachments/assets/db961a36-bac3-4a55-8326-93e0b0a49f79)
+
   
 ### Conclusion
 - This project demonstrated the effective use of Pivot Tables and Power Pivot to analyze and visualize data. By focusing on the Orders table, I was able to extract the key information needed for comprehensive analysis. Leveraging Pivot Charts, I was able to present the data clearly and intuitively, culminating in a well-structured dashboard. The overall style mirrored Mo’s approach. I customized the theme to create a unique visual aesthetic. This enhanced both presentation and usability of the final dashboard. This project highlights the versatility and power of Excel tools for data-driven decision-making. I’m open to any tips or suggestions if there’s an easier way to achieve the same results.
