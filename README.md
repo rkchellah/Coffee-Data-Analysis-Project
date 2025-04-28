@@ -49,21 +49,24 @@ Here's my step-by-step guide to recreating this project
 ### Converting to Tables
 - I converted the ranges from each sheet into tables. I named them appropriately—Orders, Customers, and Products. This is necessary since Power Pivot requires tables. To add Power Pivot to the Excel ribbon, I enabled it as a COM-Add-in through the Excel Options menu.
   
-  ![powerp](https://github.com/user-attachments/assets/5f8fd225-e5d3-4a42-9d39-8bfdd62c274c)
+![powerpivot](https://github.com/user-attachments/assets/3e134948-cdcc-4b47-a3d4-ba1a07c9a748)
+
 
 ### Adding Data to Power Pivot
 - I clicked on Power Pivot and began adding tables to the data model. I started with the Orders table by selecting any cell within it and choosing “Add to Data Model.” I repeated this process for the other tables, adding each one to the Power Pivot data model. Once all three tables were added, I switched to the Diagram View to establish relationships between them. I connected the Customer ID from the Orders table to the Customer ID in the Customers table. This connection created a one-to-many relationship. Similarly, I connected the Product ID from the Orders table to its counterpart in the Products table. This link formed another one-to-many relationship.
   
-![tbls](https://github.com/user-attachments/assets/bf1eec18-afb6-48ba-8833-90db617a7bce)
+![relationship](https://github.com/user-attachments/assets/2cff8e0a-994a-49bc-bd65-c04e7cb6f6bb)
+
 
 ### Data Integration Using DAX
 - I exited the Diagram View and began connecting the tables using the RELATED DAX function. I added the necessary columns from the Customer table. I also added the necessary columns from the Product table. This replicated the columns Mo Chen gathered using XLOOKUP and INDEX MATCH.
   
-![related](https://github.com/user-attachments/assets/64d812fd-cc5f-4ca2-a9c2-e76431c8f18c)
+![related](https://github.com/user-attachments/assets/81690353-8c3a-44c9-af8e-59075cf4dd6c)
+
 
 In the screenshot below, I initially forgot to include the Size column but later added it, along with the Loyalty Card information. These were necessary for creating slicers in the final dashboard
 
-![other-columns](https://github.com/user-attachments/assets/f082c406-25d8-4043-b7df-13574a281c7d)
+![table](https://github.com/user-attachments/assets/d22debec-4328-4d7c-96d0-6dbea6170ebe)
 
 
 ### Data Analysis
